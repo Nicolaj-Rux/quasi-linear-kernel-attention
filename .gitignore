@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# CUDA / C++ build outputs
+build/
+dist/
+*.so
+*.o
+
+# Experiment outputs
+*.log
+*.pt
+*.pth
+*.ckpt
+*.csv
+wandb/
+outputs/
+runs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
